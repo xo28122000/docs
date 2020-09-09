@@ -14,16 +14,16 @@ Configure the new class in **New Java Class**:
 Initialize Amplify by adding an `onCreate` method with the following code:
 
 ```java
-  public void onCreate() {
-      super.onCreate();
+public void onCreate() {
+    super.onCreate();
 
-      try {
-          Amplify.configure(getApplicationContext());
-          Log.i("MyAmplifyApp", "Initialized Amplify");
-      } catch (AmplifyException error) {
-          Log.e("MyAmplifyApp", "Could not initialize Amplify", error);
-      }
-  }
+    try {
+        Amplify.configure(getApplicationContext());
+        Log.i("MyAmplifyApp", "Initialized Amplify");
+    } catch (AmplifyException error) {
+        Log.e("MyAmplifyApp", "Could not initialize Amplify", error);
+    }
+}
 ```
 
 </amplify-block>
