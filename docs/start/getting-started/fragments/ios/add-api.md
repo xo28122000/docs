@@ -157,6 +157,8 @@ In this section we will make a mutation using the app sync console and have our 
             name,
             description,
             priority,
+            createdAt,
+            updatedAt,
             _version,
             _lastChangedAt,
         }
